@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Lexend+Deca:wght@600&family=Manrope&family=Nosifer&family=Orienta&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,900&family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+#genel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #a00dfa;
+}
+
+h2{
+    margin: 10px 0;
+    color: #fff;
+    font-size: 40px;
+}
+
+.genel{
+    width: 1000px;
+    height: 400px;
+    background-color: #9930b7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.butonlar{
+    text-align: center;
+}
+
+.sonuc{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.secimtext{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rakip{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+button{
+    border: none;
+    background-color: #fd3f08;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.rakip p{
+    font-size: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.rakipText{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.puanRakip{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+}
+
+.puanbirbir{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.fa-left-long{
+    font-size: 40px;
+}
+
+.fa-right-long{
+    font-size: 40px;
+}
+
+.fa-left-long.active{
+    color: #36f941;
+}
+
+.fa-right-long.active{
+    color: #36f941;
+}
